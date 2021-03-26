@@ -1,6 +1,6 @@
-# Credicorp Challenge
+# Credicorp Challenge - Frontend
 
-Prerequisites
+### Prerequisites
 
 You will need installed on your system:
   - Node version 14.16 or greater.
@@ -8,23 +8,23 @@ You will need installed on your system:
   - Backend started
 
 
-## Setup
+### Setup
 ```
 yarn install
 ```
-## Run development
+### Run development
 
 ```
   yarn dev
 ```
 
-## Run production
+### Run production
 
 ```
   yarn build
   yarn start
 ```
 
-## How to use
+### How to use
 
 Access [`http://localhost:3000`](http://localhost:3000)

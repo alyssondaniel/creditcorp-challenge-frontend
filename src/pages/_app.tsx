@@ -1,8 +1,8 @@
 import React from "react";
 import "../../style/index.css";
 
-const CrediCorpApp = ({ Component, pageProps }) => {
+const creditCorpApp = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
 };
 
-export default CrediCorpApp;
+export default creditCorpApp;

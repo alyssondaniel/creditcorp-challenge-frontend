@@ -32,7 +32,7 @@ const Home: React.FC<JSX.Element> = () => {
         </Container>
       </Container>
 
-      <footer className="cntr-footer">CrediCorp</footer>
+      <footer className="cntr-footer">CreditCorp</footer>
     </Container>
   );
 };
