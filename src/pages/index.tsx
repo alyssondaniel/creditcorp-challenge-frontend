@@ -9,22 +9,19 @@ const Home: React.FC<JSX.Element> = () => {
         <title>ReactJS with react-bootstrap</title>
       </Head>
       <Container>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <p>
-          Get started by editing <code>pages/index.js</code>
-        </p>
         <Container>
           <Row className="justify-content-md-between">
             <Card className="sml-card">
               <Card.Body>
-                <Card.Title>Documentation</Card.Title>
-                <Card.Text>
-                  Find in-depth information about Next.js features and API.
-                </Card.Text>
-                <Button variant="primary" href="https://nextjs.org/docs">
-                  More &rarr;
+                <Card.Title>CreditCorp Challenge</Card.Title>
+                <Card.Text>Seja bem vindo.</Card.Text>
+                <p>Esolha um dos botões para começar</p>
+                <Button variant="primary" href="/companies">
+                  Empresas &rarr;
+                </Button>{" "}
+                or{" "}
+                <Button variant="secondary" href="/receivables">
+                  Título recebíveis &rarr;
                 </Button>
               </Card.Body>
             </Card>
