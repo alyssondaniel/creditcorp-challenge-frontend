@@ -21,14 +21,14 @@ const Show: React.FC<CompanyProps> = ({ company }: CompanyProps) => {
     return <p>Carregando...</p>;
   }
   return (
-    <Container className="md-container">
+    <Container className="lg-container">
       <Head>
         <title>Company</title>
       </Head>
       <Navigation />
       <Card>
         <Card.Body>
-          <Card.Title>Detalhando</Card.Title>
+          <Card.Title>Detalhando a empresa</Card.Title>
           <Row>
             <Col>ID</Col>
             <Col>{company.id}</Col>

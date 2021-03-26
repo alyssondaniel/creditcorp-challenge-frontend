@@ -27,7 +27,7 @@ const Company: React.FC<CompaniesProps> = ({ data }) => {
     });
   };
   return (
-    <Container className="md-container">
+    <Container className="lg-container">
       <Head>
         <title>Company</title>
       </Head>
@@ -35,7 +35,7 @@ const Company: React.FC<CompaniesProps> = ({ data }) => {
       <Card>
         <Card.Body>
           <Card.Title>
-            Listando{" "}
+            Listando empresas{" "}
             <Button variant="outline-success" href={`/companies/new`}>
               Novo
             </Button>

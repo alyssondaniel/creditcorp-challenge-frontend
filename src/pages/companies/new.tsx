@@ -13,9 +13,9 @@ type FormData = {
 
 const New: React.FC = () => {
   const [show, setShow] = useState(false);
+  const [isLoading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
   const [messageClass, setMessageClass] = useState("success");
-  const [isLoading, setLoading] = useState(false);
 
   const { register, handleSubmit, errors } = useForm<FormData>();
 
@@ -41,7 +41,7 @@ const New: React.FC = () => {
   });
 
   return (
-    <Container className="md-container">
+    <Container className="lg-container">
       <Head>
         <title>Company</title>
       </Head>
@@ -57,7 +57,7 @@ const New: React.FC = () => {
       )}
       <Card>
         <Card.Body>
-          <Card.Title>Novo</Card.Title>
+          <Card.Title>Criando nova empresa</Card.Title>
           <Form onSubmit={handleSubmit(onSubmit)}>
             <Form.Group controlId="formName">
               <Form.Label>Razão Social</Form.Label>

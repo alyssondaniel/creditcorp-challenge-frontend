@@ -9,6 +9,7 @@ const Navigation: React.FC = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/companies">Empresas</Nav.Link>
+          <Nav.Link href="/receivables">Títulos</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

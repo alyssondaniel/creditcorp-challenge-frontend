@@ -62,7 +62,7 @@ const Edit: React.FC<CompanyProps> = ({ company }: CompanyProps) => {
   });
 
   return (
-    <Container className="md-container">
+    <Container className="lg-container">
       <Head>
         <title>Company</title>
       </Head>
@@ -78,7 +78,7 @@ const Edit: React.FC<CompanyProps> = ({ company }: CompanyProps) => {
       )}
       <Card>
         <Card.Body>
-          <Card.Title>Editar</Card.Title>
+          <Card.Title>Editando a empresa</Card.Title>
           <Form onSubmit={handleSubmit(onSubmit)}>
             <Form.Group controlId="formName">
               <Form.Label>Razão Social</Form.Label>
